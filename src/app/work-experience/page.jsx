@@ -30,17 +30,17 @@ export default function WorkExperience() {
     ];
   
     return (
-      <div className="bg-primarybg text-black px-10 py-4 mb-10 min-h-screen flex flex-col items-center max-w-[900px] mx-auto">
-        <h1 className="text-2xl w-full font-semibold text-primary mb-8 border-b-2 text-center border-gray-800 pb-2">Work Experience</h1>
+      <div className="bg-primarybg text-black px-3 sm:px-7 md:px-10 py-4 mb-10 min-h-screen flex flex-col items-center max-w-[900px] mx-auto">
+        <h1 className="text-lg sm:text-xl md:text-2xl w-full font-semibold text-primary mb-4 sm:mb-6 md:mb-8 border-b-2 text-center border-gray-800 sm:pb-1 md:pb-2">Work Experience</h1>
         {experiences.map((exp, index) => (
-          <div key={index} className="bg-secondarybg p-8 rounded-2xl shadow-lg mb-8 w-full max-w-4xl transition-transform transform hover:scale-105">
-            <h2 className="text-[22px] font-semibold text-secondary">{exp.company}</h2>
-            <p className="text-base  text-black mt-1">{exp.role} | ({exp.duration})</p>
+          <div key={index} className="bg-secondarybg p-3 sm:p-5 md:p-8 rounded-2xl shadow-lg mb-8 w-full max-w-4xl transition-transform transform hover:scale-105">
+            <h2 className="text-base sm:text-lg md:text-[22px] font-semibold text-secondary">{exp.company}</h2>
+            <p className="text-xs sm:text-sm md:text-base  text-black mt-1">{exp.role} | ({exp.duration})</p>
             {exp.projects.map((project, idx) => (
-              <div key={idx} className="bg-tertiarybg p-6 rounded-xl mt-6 shadow-md">
-                <h3 className="text-lg font-semibold text-black">{project.name}</h3>
-                <p className="text-md text-gray-600 mt-2 italic">{project.description}</p>
-                <ul className="list-disc list-inside mt-4 text-gray-700 text-md space-y-1">
+              <div key={idx} className="bg-tertiarybg p-3 sm:p-6 rounded-xl mt-3 md:mt-6 shadow-md">
+                <h3 className="text-sm sm:text-base md:text-lg font-semibold text-black">{project.name}</h3>
+                <p className="text-xs sm:text-sm md:text-base text-gray-600 mt-2 italic">{project.description}</p>
+                <ul className="list-disc list-inside mt-4 text-gray-700 text-xs sm:text-sm md:text-base space-y-1">
                   {project.responsibilities.map((resp, id) => (
                     <li key={id} className="text-md">{resp}</li>
                   ))}

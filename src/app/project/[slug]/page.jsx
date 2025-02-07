@@ -56,35 +56,35 @@ export default function ProjectDetails() {
     }
 
     return (
-        <div className="max-w-4xl mx-auto p-8 bg-primarybg shadow-xl rounded-lg">
-            <h1 className="text-xl font-semibold text-primary border-b-4 border-secondary pb-2">
+        <div className="max-w-4xl mx-auto p-4 sm:p-6 md:p-8 bg-primarybg shadow-xl rounded-lg">
+            <h1 className="text-base sm:text-lg md:text-xl font-semibold text-primary  border-b-2 md:border-b-4 border-secondary pb-[2px] sm:pb-1 md:pb-2">
                 {project.name}
             </h1>
             <img
                 src={project.image}
                 alt={project.name}
-                className=" h-80 object-cover mx-auto mt-6 rounded-lg shadow-lg"
+                className=" max-w-2xl w-full object-cover mx-auto mt-2 sm:mt-4 md:mt-6 rounded-lg shadow-lg"
             />
-            <p className="mt-6 text-base text-gray-700 leading-relaxed italic">
+            <p className=" mt-3 md:mt-6 text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed italic">
                 {project.description}
             </p>
 
-            <div className="mt-6 bg-secondarybg p-6 rounded-lg shadow-md">
-                <h2 className="text-lg font-semibold text-primary">Features:</h2>
+            <div className="mt-3 md:mt-6 bg-secondarybg p-3 md:p-6 rounded-lg shadow-md">
+                <h2 className="text-sm sm:text-base md:text-lg font-semibold text-primary">Features:</h2>
                 <ul className="list-disc pl-6 text-gray-800 mt-2 space-y-1">
                     {project.features.map((feature, index) => (
-                        <li key={index} className="pl-2">{feature}</li>
+                        <li key={index} className=" text-xs sm:text-sm md:text-base">{feature}</li>
                     ))}
                 </ul>
             </div>
 
-            <div className="mt-6 bg-accent p-6 rounded-lg shadow-md">
-                <h2 className="text-lg font-semibold text-primary">Tech Stack:</h2>
+            <div className="mt-4 md:mt-6 bg-accent p-3 md:p-6 rounded-lg shadow-md">
+                <h2 className=" text-sm sm:text-base md:text-lg font-semibold text-primary">Tech Stack:</h2>
                 <div className="flex flex-wrap gap-2 mt-3">
                     {project.techStack.map((tech, index) => (
                         <span
                             key={index}
-                            className="bg-secondary text-white px-4 py-1 rounded-full text-sm font-medium shadow-md"
+                            className="bg-secondary text-white px-3 md:px-4 py-[2px] md:py-1 rounded-full text-xs md:text-sm  shadow-md"
                         >
                             {tech}
                         </span>
@@ -92,12 +92,12 @@ export default function ProjectDetails() {
                 </div>
             </div>
 
-            <div className="mt-8 flex gap-6">
+            <div className="mt-4 sm:mt-6 md:mt-8 flex gap-6">
                 <a
                     href={project.liveDemo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-secondary text-white px-6 py-2 rounded-lg text-sm font-semibold shadow-lg hover:bg-[#51c0d0] transition duration-300"
+                    className="bg-secondary text-white px-4 md:px-6 py-1 md:py-2 rounded-sm sm:rounded-md md:rounded-lg text-xs md:text-sm md:font-semibold shadow-lg hover:bg-[#51c0d0] transition duration-300"
                 >
                     Live Demo
                 </a>
@@ -114,7 +114,7 @@ export default function ProjectDetails() {
             <div className="mt-8 text-center">
                 <Link
                     href="/#projects"
-                    className="text-secondary font-medium text-lg hover:underline transition duration-300"
+                    className="text-secondary md:font-medium text-sm sm:text-base md:text-lg hover:underline transition duration-300"
                 >
                     ← Back to Projects
                 </Link>
