@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio
 
-## Getting Started
+## Hosted Portfolio
 
-First, run the development server:
+Visit my live portfolio website: [Rohit Kushwaha Portfolio](https://rohit-kushwaha-portfolio.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to my personal portfolio website! This portfolio showcases my skills, projects, and experience as a Full-Stack Developer. It is designed to give an insight into my technical abilities and the projects I have developed using modern web technologies.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Work Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Full Stack Intern (MERN) | Indux Solar | Agroking (Nov 2024 – Present)
 
-## Learn More
+* Integrated Razorpay, enabling the platform to securely process 100+ transactions daily with high efficiency.
+* Developed and optimized a reliable order management system, reducing order failure rates by 30% for smoother operations.
+* Enhanced API performance, improving response time by 40% and ensuring faster user interactions.
 
-To learn more about Next.js, take a look at the following resources:
+### Billboard Generator
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Built image upload & preview functionality, significantly improving the user experience (UX) by 50% with smoother interactions.
+* Created and implemented campaign management features, allowing the platform to support 1000+ interactive billboards after deployment.
+* Collaborated with Python developers to seamlessly integrate AI-generated billboards.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+* **Responsive Design:** Built using Next.js and Tailwind CSS for a professional and mobile-friendly experience.
+* **Project Showcase:** Interactive display of my key projects with live links.
+* **Dynamic Animations:** Smooth transitions and interactive elements for an engaging user experience.
+* **Contact Form:** Easy-to-use contact form for reaching out.
+* **Skills and Experience:** Clearly structured sections to highlight my technical expertise.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Frontend:** Next.js, Tailwind CSS
+* **Backend:** Node.js, Express
+* **Database:** MongoDB
+* **AI Integration:** Gemini AI (for Typinity)
+* **Payment Gateway:** Razorpay (for E-Store)
+* **Deployment:** Vercel, Render
+
+## Projects
+
+### 1. [Typinity - AI Powered Typing Application](https://typinity.vercel.app/)
+
+* Typinity is a typing practice application that helps users improve their typing skills with real-time feedback powered by Gemini AI.
+* Key Features:
+
+  * Real-time typing metrics (WPM, accuracy, speed)
+  * Multiple typing modes and personalized tests
+  * Data visualization for progress tracking
+
+### 2. [E-Store - Full-Stack E-Commerce Application](https://e-store-n221.onrender.com/)
+
+* A complete e-commerce platform with features like product filtering, user ratings, and secure payments using Razorpay.
+* Key Features:
+
+  * Responsive and interactive UI with React and Tailwind CSS
+  * Secure authentication with JWT and Google Auth0
+  * Product search with debounced filtering
+
+### 3. [Wechat - Real-Time Chat Application](https://wechatfrontend.onrender.com/)
+
+* A real-time chat application enabling bidirectional communication and interactive messaging.
+* Key Features:
+
+  * Built using Socket.io, React.js, and Node.js
+  * Real-time user interactions with bidirectional data flow
+  * Responsive front-end with React and a scalable back-end with Node.js
+
+
+## Installation and Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/username/portfolio.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd portfolio
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+5. Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. Push the branch:
+
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+Feel free to connect via [LinkedIn](https://www.linkedin.com/in/rohitkushwaha-developer) or visit my [GitHub Profile](https://github.com/rohitwebdeveloper).
