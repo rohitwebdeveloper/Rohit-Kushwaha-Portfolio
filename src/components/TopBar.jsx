@@ -44,7 +44,7 @@ export default function TopBar() {
         onMouseLeave={() => setShowText(false)}
       >
         <Link
-          href="https://drive.google.com/file/d/1yh69B8NtljgLFlBq9eHM-Edm2xyyv5Zy/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LXP-T_MbXxCX1WwpCclU0v_ezWAFijqQ/view?usp=sharing"
            target="_blank"
           download
           className="text-secondary text-2xl hover:text-black transition flex items-center gap-2"

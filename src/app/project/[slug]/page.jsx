@@ -4,6 +4,24 @@ import Link from "next/link";
 
 const projects = [
     {
+        slug: "typinity",
+        name: "Typinity – AI Powered Typing Application",
+        image: "/projecttypinity.png",
+        description:
+            "Typinity is an AI-powered typing practice application designed to enhance typing speed, accuracy, and consistency. Built using Next.js, Tailwind CSS, and integrated with Gemini AI, it offers real-time feedback and detailed analytics. The application provides multiple typing modes, customizable tests, and interactive graphs to track progress. With a sleek dark-themed interface and glowing highlights, Typinity delivers an engaging and productive typing experience.",
+        features: [
+            "Real-Time Feedback - Uses Gemini AI to track WPM, accuracy, speed, and consistency during typing sessions",
+            "Multiple Typing Modes - Offers various challenges to target specific typing skills",
+            "Custom Typing Tests - Create personalized tests to practice targeted areas",
+            "Interactive Analytics - Visualize typing progress with dynamic charts and metrics",
+            "Responsive Dark-Themed UI - Attractive and modern interface with glowing accents",
+            "Seamless User Experience - Smooth animations and transitions for better usability"
+        ],
+        techStack: ["Next.js", "Tailwind CSS", "React.js", "Gemini AI", "Node.js", "Express.js", "MongoDB", "JWT Token"],
+        liveDemo: "https://typinity.vercel.app/",
+        github: "#",
+    },
+    {
         slug: "estore",
         name: "E-Store – E-Commerce Application",
         image: "/projectestore.png",

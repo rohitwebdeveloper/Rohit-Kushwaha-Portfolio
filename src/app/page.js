@@ -2,8 +2,15 @@ import Link from 'next/link';
 
 const projects = [
   {
+    name: "Typinity – AI Powered Typing Application",
+    image: "/typinity.png", 
+    description:
+    "Typinity is an AI-powered typing practice application designed to enhance typing speed, accuracy, and consistency.",
+    link: "/project/typinity",
+  },
+  {
     name: "E-Store – E-Commerce Application",
-    image: "https://cdni.iconscout.com/illustration/premium/thumb/ecommerce-service-illustration-download-in-svg-png-gif-file-formats--e-commerce-online-shopping-buy-pack-illustrations-6057316.png?f=webp", // Replace with actual image
+    image: "https://cdni.iconscout.com/illustration/premium/thumb/ecommerce-service-illustration-download-in-svg-png-gif-file-formats--e-commerce-online-shopping-buy-pack-illustrations-6057316.png?f=webp", 
     description:
       "A full-stack e-commerce application with product filtering, authentication, and secure payments.",
     link: "/project/estore",
