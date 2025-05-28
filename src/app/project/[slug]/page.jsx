@@ -24,7 +24,7 @@ const projects = [
     {
         slug: "estore",
         name: "E-Store – E-Commerce Application",
-        image: "/projectestore.png",
+        image: "/screenshot.png",
         description:
             "E-Store is a full-stack e-commerce web application designed to provide a seamless online shopping experience. Built using React.js, Node.js, Express, and MongoDB, the platform allows users to browse products, filter items, and make secure purchases. The application ensures high performance and security with features like JWT authentication, Google Auth0 for social login, and Multer for image uploads. Optimized with Vite, it delivers fast load times and a smooth user interface. The backend efficiently manages product catalogs, user authentication, and order processing, providing a reliable infrastructure for an online marketplace.",
         features: [
