@@ -1,5 +1,7 @@
 # My Portfolio
 
+<p><strong style="color:red;">⚠️ NOTE:</strong> This site is hosted on a free Render instance. The first API request may take <strong>50–60 seconds</strong> because the server sleeps when inactive.</p>
+
 ## Hosted Portfolio
 
 Visit my live portfolio website: [Rohit Kushwaha Portfolio](https://rohit-kushwaha-portfolio.vercel.app/)
