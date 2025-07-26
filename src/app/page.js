@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 const projects = [
   {
+    name: "Snapnest – Photo Management Application",
+    image: "/snapnest.png", 
+    description:
+    "Snapnest is a smart photo organizer and viewer that enables users to upload, view, and manage images efficiently.",
+    link: "/project/snapnest",
+  },
+  {
     name: "Typinity – AI Powered Typing Application",
     image: "/typinity.png", 
     description:

@@ -16,12 +16,6 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
 * Developed and optimized a reliable order management system, reducing order failure rates by 30% for smoother operations.
 * Enhanced API performance, improving response time by 40% and ensuring faster user interactions.
 
-### Billboard Generator
-
-* Built image upload & preview functionality, significantly improving the user experience (UX) by 50% with smoother interactions.
-* Created and implemented campaign management features, allowing the platform to support 1000+ interactive billboards after deployment.
-* Collaborated with Python developers to seamlessly integrate AI-generated billboards.
-
 ## Features
 
 * **Responsive Design:** Built using Next.js and Tailwind CSS for a professional and mobile-friendly experience.
@@ -30,18 +24,22 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
 * **Contact Form:** Easy-to-use contact form for reaching out.
 * **Skills and Experience:** Clearly structured sections to highlight my technical expertise.
 
-## Tech Stack
-
-* **Frontend:** Next.js, Tailwind CSS
-* **Backend:** Node.js, Express
-* **Database:** MongoDB
-* **AI Integration:** Gemini AI (for Typinity)
-* **Payment Gateway:** Razorpay (for E-Store)
-* **Deployment:** Vercel, Render
 
 ## Projects
 
-### 1. [Typinity - AI Powered Typing Application](https://typinity.vercel.app/)
+
+### 1. [Snapnest – Photo Management Application](https://snapnest-frontend-tau.vercel.app)
+
+* A beautifully designed photo management and gallery application built using **React**, **Tailwind CSS**, and **React Query** with **Infinite Scrolling** support. Users can upload, view, search, and manage their photo collection effortlessly.
+* Key Features:
+
+  * Infinite Scroll for smooth browsing
+  * Search functionality
+  * Upload Photos to personalized albums
+  * Light/Dark Mode Toggle
+
+
+### 2. [Typinity - AI Powered Typing Application](https://typinity.vercel.app/)
 
 * Typinity is a typing practice application that helps users improve their typing skills with real-time feedback powered by Gemini AI.
 * Key Features:
@@ -50,7 +48,7 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
   * Multiple typing modes and personalized tests
   * Data visualization for progress tracking
 
-### 2. [E-Store - Full-Stack E-Commerce Application](https://e-store-n221.onrender.com/)
+### 3. [E-Store - Full-Stack E-Commerce Application](https://e-store-n221.onrender.com/)
 
 * A complete e-commerce platform with features like product filtering, user ratings, and secure payments using Razorpay.
 * Key Features:
@@ -59,7 +57,7 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
   * Secure authentication with JWT and Google Auth0
   * Product search with debounced filtering
 
-### 3. [Wechat - Real-Time Chat Application](https://wechatfrontend.onrender.com/)
+### 4. [Wechat - Real-Time Chat Application](https://wechatfrontend.onrender.com/)
 
 * A real-time chat application enabling bidirectional communication and interactive messaging.
 * Key Features:
@@ -79,7 +77,7 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
 2. Navigate to the project directory:
 
    ```bash
-   cd portfolio
+   cd folder
    ```
 3. Install dependencies:
 
@@ -113,9 +111,6 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
    ```
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 

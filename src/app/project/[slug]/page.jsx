@@ -4,6 +4,26 @@ import Link from "next/link";
 
 const projects = [
     {
+        slug: "snapnest",
+        name: "Snapnest – Photo Management Application",
+        image: "/projectsnapnest.png",
+        description:
+            "Snapnest is a smart photo organizer and viewer that enables users to upload, view, and manage images efficiently. Built with React, Tailwind CSS, Node.js, Express.js, and MongoDB, it uses infinite scrolling, image categorization by upload date, and lazy loading for better performance. Users can seamlessly explore uploaded content with a smooth UI, receive feedback, and enjoy enhanced image delivery using Cloudinary optimization.",
+        features: [
+            "Photo Uploading - Users can upload and view images instantly.",
+            "Date-based Grouping - Images are automatically grouped by upload date.",
+            "Infinite Scrolling - Continuously loads images as the user scrolls.",
+            "Feedback System - Users can leave feedback on photos.",
+            "Responsive UI - Clean and modern UI with Tailwind CSS and React.",
+            "Optimized Image Delivery - Cloudinary integration ensures fast loading and quality.",
+            "Error Handling - Custom error and loader components for better UX."
+        ],
+        techStack: ["React.js", 'Redux', 'Tanstack Query', "Tailwind CSS", "Express.js", "MongoDB", "Node.js", "Cloudinary",],
+        liveDemo: "https://snapnest-frontend-tau.vercel.app",
+        github: "#"
+    },
+
+    {
         slug: "typinity",
         name: "Typinity – AI Powered Typing Application",
         image: "/projecttypinity.png",

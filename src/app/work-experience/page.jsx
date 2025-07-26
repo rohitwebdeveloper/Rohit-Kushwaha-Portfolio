@@ -15,16 +15,16 @@ export default function WorkExperience() {
               "Enhanced API performance, improving response time by 40% and ensuring faster user interactions.",
             ],
           },
-          {
-            name: "Billboard Generator",
-            description:
-              "Developed a Billboard Generator system that allows users to create interactive digital billboards with AI-driven enhancements and campaign management features.",
-            responsibilities: [
-              "Built image upload & preview functionality, significantly improving the user experience (UX) by 50% with smoother interactions.",
-              "Created and implemented campaign management features, allowing the platform to support 1000+ interactive billboards after deployment.",
-              "Worked closely with Python developers to integrate AI-generated billboards into the system seamlessly.",
-            ],
-          },
+          // {
+          //   name: "Billboard Generator",
+          //   description:
+          //     "Developed a Billboard Generator system that allows users to create interactive digital billboards with AI-driven enhancements and campaign management features.",
+          //   responsibilities: [
+          //     "Built image upload & preview functionality, significantly improving the user experience (UX) by 50% with smoother interactions.",
+          //     "Created and implemented campaign management features, allowing the platform to support 1000+ interactive billboards after deployment.",
+          //     "Worked closely with Python developers to integrate AI-generated billboards into the system seamlessly.",
+          //   ],
+          // },
         ],
       },
     ];
